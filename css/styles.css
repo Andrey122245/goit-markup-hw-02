@@ -1,15 +1,15 @@
-html {
-    box-sizing: border-box;
-}
+/* main styles */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-}
-ul {
+  }
+  ul {
     list-style-type: none;
-}
-.logo-header {
+  }
+  
+  /* logo header section */
+  .logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -18,59 +18,65 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-}
-.logo-header:hover {
+  }
+  .logo-header:hover {
     color: #404bbf;
-}
-.logo-header-span {
+  }
+  .logo-header-span {
     color: #2e2f42;
-}
-.logo-header-span:hover {
+  }
+  .logo-header-span:hover {
     color: #404bbf;
-}
-.navigation-list-item {
+  }
+  
+  /* nav section .navigation-list {} */
+  .navigation-list-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-}
-.navigation-list-item:hover {
+  }
+  .navigation-list-item:hover {
     color: #404bbf;
-}
-.navigation-list-item:focus {
+  }
+  .navigation-list-item:focus {
     color: #404bbf;
-}
-.address {
+  }
+  
+  /* address section .address-list {} */
+  .address {
     font-style: normal;
-}
-.address-list-item {
+  }
+  .address-list-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-}
-.address-list-item:hover {
+  }
+  .address-list-item:hover {
     color: #404bbf;
-}
-.address-list-item:focus {
+  }
+  .address-list-item:focus {
     color: #404bbf;
-}
-.solutions {
+  }
+  
+  /* effective solutions section */
+  .solutions {
     background: #2e2f42;
-}
-.solutions-header {
+  }
+  .solutions-header {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-.solutions-button {
+  }
+  .solutions-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -79,32 +85,36 @@ ul {
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
-}
-.solutions-button:hover {
+  }
+  .solutions-button:hover {
     background: #404bbf;
-}
-.solutions-button:focus {
+  }
+  .solutions-button:focus {
     background: #404bbf;
-}
-.features-list-header {
+  }
+  
+  /* our features section .features {} .features-list {} .features-hiden-object {} */
+  .features-list-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-.features-list-text {
+  }
+  .features-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-.team {
+  }
+  
+  /* our team section .team-list-item {} */
+  .team {
     background: #f4f4fd;
-}
-.team-list {
+  }
+  .team-list {
     background: #ffffff;
-}
-.team-main-header {
+  }
+  .team-main-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -113,19 +123,21 @@ ul {
     color: #2e2f42;
     text-transform: capitalize;
   }
-.team-list-header {
+  .team-list-header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
   }
-.team-list-text {
+  .team-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
-.portfolio-main-header {
+  
+  /* portfolio section .portfolio {} .portfolio-list {} .portfolio-list-item {} */
+  .portfolio-main-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -146,6 +158,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  /* footer section */
   .footer {
     background: #2e2f42;
   }
